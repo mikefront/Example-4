@@ -9,8 +9,18 @@ public class Main {
         {
             System.out.println();
         }
-        for (int someNumber = 10; someNumber >= 1; someNumber-- ) {
-            System.out.print(+ someNumber);
+        for (int someNumber = 10; someNumber >= 1; someNumber--) {
+            System.out.print(+someNumber);
         }
+        {
+            System.out.println();
+        }
+
+        // Задание2
+        int reportingDay = 5;
+        for (int i = 5; i <= 31; i = i + 7 ) {
+            System.out.println("Сегодня пятница " + i + "-е число. Необходимо подготовить отчет");
+        }
+
     }
 }
